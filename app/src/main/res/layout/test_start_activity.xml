@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.starling.zvonilka.ui.TestStarActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="?attr/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="560dp"
+        android:text="REG"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/unreg_btn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="516dp"
+        android:text="UNREG"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="460dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="?android:attr/colorButtonNormal"
+        android:scrollbars="vertical"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <Button
+        android:id="@+id/call_reject_btn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="516dp"
+        android:text="DECL"
+        app:layout_constraintStart_toEndOf="@+id/cancel_btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/invite_btn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="560dp"
+        android:text="invite"
+        app:layout_constraintStart_toEndOf="@+id/reg_btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clear_btn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="560dp"
+        android:text="clear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/call_accept_btn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="560dp"
+        android:text="OK"
+        app:layout_constraintStart_toEndOf="@+id/invite_btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="516dp"
+        android:text="CANC"
+        app:layout_constraintStart_toEndOf="@+id/unreg_btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bye_btn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="560dp"
+        android:text="BYE"
+        app:layout_constraintStart_toEndOf="@+id/call_accept_btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/busy_btn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="516dp"
+        android:text="BUSY"
+        app:layout_constraintStart_toEndOf="@+id/call_reject_btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

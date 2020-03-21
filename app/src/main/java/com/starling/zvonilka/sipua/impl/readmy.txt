@@ -1,0 +1,11 @@
+this packege implement SIP user agent
+
+main SIP core class is SipManager, which implements almost all UA features
+
+
+
+- registration
+- call signalling
+- call rejection
+- call cancellation
+- call ending

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="SIP PROFILE">
+
+        <EditTextPreference
+            android:defaultValue="91.214.114.106"
+            android:key="sip_server_ip"
+            android:summary="sip server address"
+            android:title="Sip server IP adress:" />
+
+        <EditTextPreference
+            android:defaultValue="5060"
+            android:key="sip_server_port"
+            android:summary="sip server port"
+            android:title="Sip server port:" />
+
+        <EditTextPreference
+            android:defaultValue="22022"
+            android:key="sip_username"
+            android:summary="usualy this is number"
+            android:title="Sip username:" />
+
+        <EditTextPreference
+            android:defaultValue="1234567890"
+            android:key="sip_password"
+            android:summary="sip account password"
+            android:title="SIP password:" />
+
+        <EditTextPreference
+            android:defaultValue="4444"
+            android:key="sip_local_port"
+            android:summary="specify local sip port"
+            android:title="Local sip port:" />
+
+    </PreferenceCategory>
+
+
+    <!--<PreferenceCategory android:title="NETWORK PREFERENCES">-->
+
+        <!--<CheckBoxPreference-->
+            <!--android:key="prefer_wifi"-->
+            <!--android:disableDependentsState="false"-->
+            <!--android:title="Prefer WiFi connection over 3G:"-->
+            <!--/>-->
+
+    <!--</PreferenceCategory>-->
+
+
+</PreferenceScreen>
