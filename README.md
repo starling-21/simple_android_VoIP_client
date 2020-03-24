@@ -25,9 +25,3 @@ There is jniwrappers java classes in separate package, which loads opus library,
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* It would be a pleasure to know if I helped to someone by sharing this project. 
-
-starling1715@gmail.com 
-
