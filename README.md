@@ -1,8 +1,8 @@
 # Simple android VoIP/SIP client. Audio streaming.
 
 Simple is better than complex!
-This is VoIP client prototype. I was searching a lot for open source projects, but found just a few working solutions for SIP signalling and voice transferring (very huge or fully native written apps). Then
-Core classes of the app have explaining comments, so don't be afraid of dive into the project. 
+This is VoIP client prototype. I was searching a lot for open source projects, but found just a few working solutions for SIP signalling and voice streaming (very huge and complicated or fully native written apps). The
+core classes of the app have explaining comments, so don't be afraid of dive into the project. 
 
 ## Built With
 
